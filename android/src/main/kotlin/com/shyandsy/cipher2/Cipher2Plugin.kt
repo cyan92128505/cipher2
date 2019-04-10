@@ -10,7 +10,7 @@ import javax.crypto.spec.GCMParameterSpec
 import javax.crypto.spec.IvParameterSpec
 import javax.crypto.spec.SecretKeySpec
 import java.security.SecureRandom
-import java.util.Base64
+import android.util.Base64
 
 class Cipher2Plugin: MethodCallHandler {
   @JvmField val NONCE_LENGTH_IN_BYTES = 12
